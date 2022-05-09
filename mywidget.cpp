@@ -33,9 +33,9 @@ MyWidget::MyWidget(){
 	labis = new QLabel("^",this);
 	equal = new QLabel("=",this);
 	
-	label -> move(120, -5); label -> resize(80, 40);
-	labis -> move(118,25); labis -> resize(50,40);
-	equal -> move(180,35); labis -> resize(40,40);
+	label -> move(120, 0); label -> resize(80, 20);
+	labis -> move(118,25); labis -> resize(20,40);
+	equal -> move(180,35); labis -> resize(20,40);
 	
 	txt1 -> move(70,30); txt1 -> resize(40,40);
 	txt2 -> move(134,30); txt2 -> resize(40,40);

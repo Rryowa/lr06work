@@ -14,7 +14,6 @@ private:
 	QPushButton* btn1;
 	QPushButton* btn2;
 	
-
 	QLabel* labis;
 	QLabel* equal;
 	QLabel* label;
