@@ -1,14 +1,8 @@
 #include <QtWidgets>
-int main(int argc, char *argv[]){
-	QApplication app(argc, argv);
-	QWidget window;
-	window.resize(200, 120);
-	window.setWindowTitle("Button");
-	QPushButton quit("Quit", &window);
-	quit.setFont(QFont("Times", 18, QFont::Bold));
-	quit.setGeometry(10, 40, 180, 40);
-	QObject::connect(&quit, SIGNAL(clicked()), &app, SLOT(quit()));
-	window.show();
-	return app.exec();
+#include "mywidget.h"
+int main (int argc, char *argv[]){
+QApplication app(argc, argv);
+MyWidget widget;
+widget.show();
+return app.exec();
 }
-
